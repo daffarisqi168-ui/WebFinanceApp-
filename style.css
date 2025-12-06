@@ -1,7 +1,7 @@
 /* ===== GLOBAL ===== */
 body {
   font-family: "Segoe UI", sans-serif;
-  background: linear-gradient(135deg, #f7c56b, #ff9f1c);
+  background: linear-gradient(135deg, #fff, #ccc);
   color: #333;
   display: flex;
   justify-content: center;
@@ -9,7 +9,7 @@ body {
   min-height: 100vh;
 }
 
-/* ===== CARD CONTAINER ===== */
+/* ===== Kontainer semua program ===== */
 .container {
   background: #ffffff;
   padding: 30px;
@@ -32,6 +32,12 @@ h2, h3 {
   margin-bottom: 15px;
 }
 
+h5{
+  text-align: center;
+  color:#626f78 ;
+  margin-top: 0px;
+}
+
 /* ===== FORM SECTION ===== */
 .form-section {
   display: flex;
@@ -51,17 +57,17 @@ input, select {
 }
 
 input:focus, select:focus {
-  border-color: #F4AF47;
+  border-color: green;
   box-shadow: 0 0 6px rgba(244,175,71,0.5);
   outline: none;
 }
 
-/* ===== BUTTONS ===== */
+/* ===== BUTTON ===== */
 button {
   padding: 10px 15px;
   border-radius: 10px;
   border: none;
-  background-color: #F4AF47;
+  background-color: #85bb65;
   font-weight: bold;
   color: white;
   cursor: pointer;
@@ -71,11 +77,11 @@ button {
 
 button:hover {
   transform: translateY(-2px);
-  background-color: #e79b2f;
+  background-color: green;
   box-shadow: 0 6px 12px rgba(0,0,0,0.2);
 }
 
-/* ===== TABLE ===== */
+/* ===== Tabel ===== */
 table {
   width: 100%;
   margin-top: 20px;
@@ -86,7 +92,7 @@ table {
 }
 
 table thead {
-  background: #F4AF47;
+  background: #85bb65;
   color: white;
 }
 
@@ -104,13 +110,13 @@ table tbody tr:hover {
   background: #fff5e1;
 }
 
-/* ===== SUMMARY BOX ===== */
+/* ===== Box total & sisa ===== */
 .summary {
   margin-top: 20px;
   background: #f4f6f7;
   padding: 15px;
   border-radius: 12px;
-  border-left: 6px solid #F4AF47;
+  border-left: 6px solid #85bb65;
   box-shadow: 0px 4px 10px rgba(0,0,0,0.08);
 }
 
@@ -119,7 +125,7 @@ table tbody tr:hover {
   font-size: 15px;
 }
 
-/* ===== EXCEL & RESET BUTTON SECTION ===== */
+/* ===== Button excel & reset ===== */
 .excel-buttons,
 .reset-button {
   display: flex;
@@ -132,10 +138,19 @@ table tbody tr:hover {
 }
 
 #btnReset {
-  background: #007bff;
+  background: #F4AF47;
 }
 
 #btnReset:hover {
   background: #c0392b;
   transform: translateY(-2px);
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 0.70em;
+  color: #555;
+  text-align: center;
+  margin-bottom: 0px;
+  
 }
